@@ -162,7 +162,7 @@ def letters_count_map(text):
             "There is only one to fear and his name is Death,"
         +" and there is only one thing we say to Death: 'Not today!")
     
-    Output: {'a': 8, 'b': 0, 'c': 0, 'd': 5, 'e': 11, 'f': 1, 'g': 1, 'h': 6, 'i': 5, 'j': 0, 'k': 0, 'l': 2, 'm': 1,
+    Output: {'a': 8, 'b': 0, 'c': 0, 'd': 5, 'e'p: 11, 'f': 1, 'g': 1, 'h': 6, 'i': 5, 'j': 0, 'k': 0, 'l': 2, 'm': 1,
              'n': 9, 'o': 8, 'p': 0, 'q': 0, 'r': 3, 's': 5, 't': 9, 'u': 0, 'v': 0, 'w': 1, 'x': 0, 'y': 4, 'z': 0}
     """
     return {letter: (text.lower()).count(letter) for letter in string.ascii_lowercase }
